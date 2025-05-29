@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "vercel-build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "vercel-build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
     "build": "echo 'skip local build'"
   },
   "engines": {
     "node": "20.11.1"
   },
   "devDependencies": {
-    "tailwindcss": "^4.1.7"
+    "tailwindcss": "^4.1.8"
   }
 }
