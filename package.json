@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "postinstall": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "vercel-build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
     "build": "echo 'skip local build'"
   },
   "engines": {
