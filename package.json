@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "postcss src/input.css -o dist/output.css"
+    "vercel-build": "postcss src/input.css -o dist/output.css",
+    "build": "echo 'skip local build'"
   },
   "engines": {
     "node": "20.11.1"
